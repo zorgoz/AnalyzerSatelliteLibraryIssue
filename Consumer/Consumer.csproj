@@ -8,7 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Analyzer\Analyzer.csproj" />
-    <Analyzer Include="..\Analyzer\bin\Debug\netstandard2.0\analyzer.dll"/>
+    <Analyzer Include="..\Analyzer\bin\Debug\netstandard2.0\analyzer.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ulid" Version="1.3.4" />
   </ItemGroup>
 
 </Project>
